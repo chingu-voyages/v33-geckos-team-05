@@ -1,0 +1,41 @@
+.App__Form {
+  margin-top: 25%;
+}
+
+.FormTitle {
+  text-align: center;
+}
+.FormTitle a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.FormCenter {
+  text-align: center;
+
+  font-weight: bold;
+}
+.FormFields {
+  display: flex;
+  flex-direction: column;
+}
+
+.FormField {
+  margin: 10px;
+}
+
+.FormFields input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.FormFields select {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.FormFields button {
+  padding: 5px;
+  font-weight: bold;
+}
