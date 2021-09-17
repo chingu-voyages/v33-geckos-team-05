@@ -1,5 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+.App {
+  background-color: lightblue;
+}
 .App__Form {
-  margin-top: 25%;
+  margin-top: 10%;
+  background-color: white;
+  padding: 5em 4em 5em 4em;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  grid-area: main;
 }
 
 .FormTitle {
@@ -11,23 +22,38 @@
   font-weight: bold;
 }
 
+.App__Form {
+  position: absolute;
+  left: 35%;
+}
 .FormCenter {
-  text-align: center;
-
   font-weight: bold;
 }
 .FormFields {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .FormField {
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.FormFields input {
-  padding: 5px;
-  margin-left: 10px;
+.FormField input {
+  padding: 10px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-top: 1.5em;
+}
+
+input:focus {
+  outline: none;
+}
+
+.FormField input:placeholder-shown {
+  font-size: 1em;
 }
 
 .FormFields select {
@@ -36,6 +62,17 @@
 }
 
 .FormFields button {
-  padding: 5px;
+  padding: 10px;
   font-weight: bold;
+  margin-top: 2em;
+  background-color: lightblue;
+}
+
+.FormField__CheckboxLabel {
+  margin-top: 2em;
+}
+.FormField__Link {
+  text-align: center;
+  padding-top: 3px;
+  margin-top: 1em;
 }

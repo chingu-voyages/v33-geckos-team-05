@@ -39,9 +39,10 @@ class App extends Component {
       <div className="App">
         <div className="App__Form">
           <div className="FormTitle">
-            <a href="#" className="FormTitle__Link">
-              Sign Up
-            </a>
+            <h2 href="#" className="FormTitle__Link">
+              Register
+            </h2>
+            <p>Please fill in this form to create an account</p>
           </div>
           <div className="FormCenter">
             <form
@@ -50,57 +51,52 @@ class App extends Component {
               onSubmit={this.handleSubmit}
             >
               <div className="FormField">
-                <label className="FormField__Label" htmlFor="name">
-                  Full Name
-                </label>
+                <label className="FormField__Label" htmlFor="name"></label>
                 <input
                   type="text"
                   id="name"
                   className="FormField__Input"
-                  placeholder="Enter your full name"
                   name="name"
+                  placeholder="Enter your full name"
                   value={this.state.name}
                   onChange={this.handleChange}
                 />
               </div>
               <div className="FormField">
-                <label className="FormField__Label" htmlFor="email">
-                  Company Email Address
-                </label>
+                <label className="FormField__Label" htmlFor="email"></label>
                 <input
                   type="email"
                   id="email"
                   className="FormField__Input"
-                  placeholder="Enter your Company Email Address"
                   name="email"
+                  placeholder="Enter your company email address"
                   value={this.state.email}
                   onChange={this.handleChange}
                 />
               </div>
               <div className="FormField">
-                <label className="FormField__Label" htmlFor="password">
-                  Password
-                </label>
+                <label className="FormField__Label" htmlFor="password"></label>
                 <input
                   type="password"
                   id="password"
                   className="FormField__Input"
-                  placeholder="Enter your password"
                   name="password"
+                  placeholder="Enter your password"
                   value={this.state.password}
                   onChange={this.handleChange}
                 />
               </div>
               <div className="FormField">
-                <label className="FormField__Label" htmlFor="department">
-                  Department
-                </label>
+                <label
+                  className="FormField__Label"
+                  htmlFor="department"
+                ></label>
                 <input
                   type="text"
                   id="department"
                   className="FormField__Input"
-                  placeholder="Enter your Department"
                   name="department"
+                  placeholder="Enter your Department's name"
                   value={this.state.department}
                   onChange={this.handleChange}
                 />
