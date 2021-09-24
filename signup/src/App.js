@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router, Route, Link, NavLink } from "react-router-dom";
+import { HashRouter as Router, Route, NavLink } from "react-router-dom";
 import SignUpForm from "./pages/SignUpForm";
 import SignInForm from "./pages/SignInForm";
 
@@ -10,25 +10,7 @@ class App extends Component {
     return (
       <Router basename="react-auth-ui/">
         <div className="App">
-          <div className="App__Aside"></div>
           <div className="App__Form">
-            <div className="PageSwitcher">
-              <NavLink
-                to="/sign-in"
-                activeClassName="PageSwitcher__Item--Active"
-                className="PageSwitcher__Item"
-              >
-                Sign In
-              </NavLink>
-              <NavLink
-                exact
-                to="/"
-                activeClassName="PageSwitcher__Item--Active"
-                className="PageSwitcher__Item "
-              >
-                Register
-              </NavLink>
-            </div>
             <div className="FormTitle">
               <NavLink
                 to="/sign-in"
@@ -37,6 +19,7 @@ class App extends Component {
               >
                 Sign In
               </NavLink>
+              or
               <NavLink
                 exact
                 to="/"
@@ -46,8 +29,8 @@ class App extends Component {
                 Register
               </NavLink>
             </div>
-            <Route exact path="/" Component={SignUpForm}></Route>
-            <Route path="/sign-in" Cpmponent={SignInForm}></Route>
+            <Route exact path="/" component={SignUpForm}></Route>
+            <Route path="/sign-in" component={SignInForm}></Route>
           </div>
         </div>
       </Router>
