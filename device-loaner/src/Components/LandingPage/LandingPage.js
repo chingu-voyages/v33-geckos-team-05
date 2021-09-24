@@ -12,29 +12,16 @@ function LandingPage() {
         </a>
       </header>
       <section id="section-cell">
-        <p class="section-desc">Cell Phones & Laptops</p>
+        <p class="section-desc">All devices</p>
         <a href="#" class="button">
-          See Devices
+          See All Devices
         </a>
       </section>
       <section id="section-misc">
-        <p class="section-desc">Miscellaneous</p>
+        <p class="section-desc">Device Log</p>
         <a href="#" class="button">
-          See Devices
+          Reserve A Device
         </a>
-      </section>
-      <section id="section-other">
-        <div class="box-1">
-          Have a tough problem? Speak to a technician! Let's see how we can
-          help.
-        </div>
-        <div class="box-2">
-          Track Devices on our device log. See what's available and book your
-          device for the exact time you need it.
-        </div>
-        <div class="box-3">
-          View our inventory. See what we have available and component specs.
-        </div>
       </section>
     </div>
   );
