@@ -8,11 +8,6 @@
   background-position: center;
 }
 
-.App__Aside {
-  width: 50%;
-  background-color: rgb(15, 53, 15);
-}
-
 .App__Form {
   width: 40%;
   background-color: rgb(231, 231, 231);
@@ -21,38 +16,6 @@
   height: 80%;
   margin: auto;
   border-radius: 10px;
-}
-
-.PageSwitcher {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10%;
-}
-
-.PageSwitcher__Item {
-  background-color: rgb(15, 53, 15);
-  color: rgb(230, 230, 188);
-  padding: 10px 25px;
-  cursor: pointer;
-  font-size: 0.9em;
-  border: none;
-  outline: none;
-  display: inline-block;
-  text-decoration: none;
-}
-
-.PageSwitcher__Item--Active {
-  background-color: rgb(230, 230, 188);
-  color: rgb(15, 53, 15);
-}
-
-.PageSwitcher__Item:first-child {
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-}
-.PageSwitcher__Item:last-child {
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
 }
 
 .FormCenter {
