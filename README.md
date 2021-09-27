@@ -1,6 +1,6 @@
-
+<h1>DeviceLoaner</h1>
+<ol>
 <!--===== TABLE OF CONTENTS =====-->
-<details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
