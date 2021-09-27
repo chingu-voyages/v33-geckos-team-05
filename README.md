@@ -1,14 +1,60 @@
-# voyage-tasks
 
-Your project's `readme` is as important to success as your code. For 
-this reason you should put as much care into its creation and maintenance
-as you would any other component of the application.
+<!--===== TABLE OF CONTENTS =====-->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-If you are unsure of what should go into the `readme` let this article,
-written by an experienced Chingu, be your starting point - 
-[Keys to a well written README](https://tinyurl.com/yk3wubft).
+<!--===== ABOUT THE PROJECT =====-->
+## About The Project
 
-And before we go there's "one more thing"! Once you decide what to include
-in your `readme` feel free to replace the text we've provided here.
+Device Loaner will make requesting a device from your IT department more accessible. By signing into your account you are able to place a request from a variety of devices through your IT department and know what is available.
+      
+      
+### Built With
 
-> Own it & Make it your Own!
+* HTML
+* CSS
+* Javascript
+* React
+
+<!--===== GETTING STARTED =====-->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Installation
+
+1. Clone the repo
+2. Go live and run in your local browser
+
+<!--===== CONTACT =====-->
+## Contact
+
+Ashley -
+
+Alex - 
+
+Kervintz-
+
+<!--===== ACKNOWLEDGEMENTS =====-->
+## Acknowledgements
+
+* [Chingu.io](https://chingu.io) 
+
