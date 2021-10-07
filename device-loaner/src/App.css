@@ -1,11 +1,11 @@
 .App {
-  height: 100vh;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   color: white;
-  background-image: url("./images/istockphoto-925273748-170667a.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: transparent;
+  width: 100%;
+  z-index: 2;
 }
 
 .App__Form {
@@ -13,9 +13,10 @@
   background-color: rgb(231, 231, 231);
   padding: 25px 40px;
   overflow: auto;
-  height: 80%;
+  height: auto;
   margin: auto;
   border-radius: 10px;
+  z-index: 1000;
 }
 
 .FormCenter {
@@ -114,6 +115,11 @@
   margin-left: 5px;
 }
 
+.close {
+  color: black;
+  font-size: 1rem;
+  margin-left: 100%;
+}
 @media only screen and (max-width: 768px) {
   .App__Form {
     width: 65%;

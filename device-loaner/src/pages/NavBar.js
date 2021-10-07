@@ -10,6 +10,7 @@ function Navbar() {
     <Router basename="react-auth-ui/">
       <div className="App">
         <div className="App__Form">
+          <span class="close">&times;</span>
           <div className="FormTitle">
             <NavLink
               to="/sign-in"
