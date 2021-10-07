@@ -2,12 +2,11 @@
   height: 100vh;
   display: flex;
   color: white;
-  background-image: url("./images/istockphoto-925273748-170667a.jpg");
+  background-image: url("./Images/istockphoto-925273748-170667a.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
 .App__Form {
   width: 40%;
   background-color: rgb(231, 231, 231);
