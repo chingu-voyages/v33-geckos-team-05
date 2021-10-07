@@ -1,9 +1,12 @@
 import React from "react";
 import "./LandingPage.css";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/NavBar";
 
 function LandingPage() {
   return (
     <div>
+      <Navbar />
       <header id="showcase">
         <h1>Welcome To Device Loaner</h1>
         <p>We have all your IT device needs</p>
@@ -23,6 +26,7 @@ function LandingPage() {
           Reserve A Device
         </a>
       </section>
+      <Footer />
     </div>
   );
 }

@@ -1,9 +1,9 @@
 ﻿import React from "react";
 import { HashRouter as Router, Route, NavLink } from "react-router-dom";
-import SignUpForm from "./SignUpForm";
-import SignInForm from "./SignInForm";
+import SignUpForm from "../AuthForms/SignUpForm";
+import SignInForm from "../AuthForms/SignInForm";
 
-import "../App.css";
+import "../AuthForms/forms.css";
 
 function Navbar() {
   return (
