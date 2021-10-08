@@ -1,7 +1,7 @@
 <div style="display: inline-block; margin-right: auto; margin-left: auto">
 <img src="RImages\landing-page.PNG" width = "400" height="300">
 <img src="RImages\landing-page2.PNG" width = "400" height="300">
-<img src="RImages\sign-up.PNG" width = "400" height="300">
+<img src="RImages\sign-up.PNG" width = "400" height="300" style="margin=right: auto; margin-left: auto">
 </div>
 <h1>DeviceLoaner</h1>
 <ol>
