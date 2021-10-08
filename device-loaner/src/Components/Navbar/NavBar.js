@@ -8,7 +8,7 @@ import "../AuthForms/forms.css";
 function Navbar() {
   return (
     <Router basename="react-auth-ui/">
-      <div className="App">
+      <div className="Nav-App">
         <div className="App__Form">
           <div className="FormTitle">
             <NavLink

@@ -1,18 +1,17 @@
 import React from "react";
 import "./LandingPage.css";
 import Footer from "../Footer/Footer";
-import Navbar from "../Navbar/NavBar";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
     <div>
-      <Navbar />
       <header id="showcase">
         <h1>Welcome To Device Loaner</h1>
         <p>We have all your IT device needs</p>
-        <a href="#" class="button">
+        <Link to="/registration" class="button">
           Read More
-        </a>
+        </Link>
       </header>
       <section id="section-cell">
         <p class="section-desc">All devices</p>
