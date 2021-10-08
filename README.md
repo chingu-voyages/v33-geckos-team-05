@@ -1,10 +1,11 @@
+<img src="RImages/landing-page.png" width = "300" height="200">
+<img src="RImages/landing-page2.png" width = "300" height="200">
+<img src="RImages/sign-up.png" width = "300" height="200">
 <h1>DeviceLoaner</h1>
 <ol>
   
 <!--===== TABLE OF CONTENTS =====-->
-<img src="Landing Page Screenshot.PNG" width = "300" height="200">
-<img src="Landing Page Screenshot2.PNG" width = "300" height="200">
-<img src="Sign Up Screenshot.PNG" width = "300" height="200">
+
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
