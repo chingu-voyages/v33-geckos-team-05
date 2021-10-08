@@ -1,6 +1,6 @@
-<img src="RImages\landing-page.PNG" width = "300" height="200">
-<img src="RImages\landing-page2.png" width = "300" height="200">
-<img src="RImages\sign-up.png" width = "300" height="200">
+<img src="RImages\landing-page.PNG" width = "400" height="300">
+<img src="RImages\landing-page2.PNG" width = "400" height="300">
+<img src="RImages\sign-up.PNG" width = "400" height="300">
 <h1>DeviceLoaner</h1>
 <ol>
   
