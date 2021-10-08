@@ -2,6 +2,9 @@
 <ol>
   
 <!--===== TABLE OF CONTENTS =====-->
+<img src="Landing Page Screenshot.PNG" width = "300" height="200">
+<img src="Landing Page Screenshot2.PNG" width = "300" height="200">
+<img src="Sign Up Screenshot.PNG" width = "300" height="200">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
@@ -23,19 +26,22 @@
 </details>
 
 <!--===== ABOUT THE PROJECT =====-->
+
 ## About The Project
 
 Device Loaner will make requesting a device from your IT department more accessible. By signing into your account you are able to place a request from a variety of devices through your IT department and know what is available.
-      
-      
+
+Live Link-
+
 ### Built With
 
-* HTML
-* CSS
-* Javascript
-* React
+- HTML
+- CSS
+- Javascript
+- React
 
 <!--===== GETTING STARTED =====-->
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
@@ -46,16 +52,15 @@ To get a local copy up and running follow these simple steps.
 2. Go live and run in your local browser
 
 <!--===== CONTACT =====-->
+
 ## Contact
 
-Ashley -
+Ashley - <a href="https://github.com/ach0319">Github</a>
 
-Alex - 
-
-Kervintz-
+Alex - <a href="https://github.com/Alex-Reitz">Github</a>
 
 <!--===== ACKNOWLEDGEMENTS =====-->
+
 ## Acknowledgements
 
-* [Chingu.io](https://chingu.io) 
-
+- [Chingu.io](https://chingu.io)
