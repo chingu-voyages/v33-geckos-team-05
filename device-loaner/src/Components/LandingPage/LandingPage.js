@@ -15,15 +15,15 @@ function LandingPage() {
       </header>
       <section id="section-cell">
         <p class="section-desc">All devices</p>
-        <a href="#" class="button">
+        <Link to="/registration" class="button">
           See All Devices
-        </a>
+        </Link>
       </section>
       <section id="section-misc">
         <p class="section-desc">Device Log</p>
-        <a href="#" class="button">
+        <Link to="/registration" class="button">
           Reserve A Device
-        </a>
+        </Link>
       </section>
       <Footer />
     </div>
