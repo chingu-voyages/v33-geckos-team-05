@@ -34,7 +34,7 @@
 
 Device Loaner will make requesting a device from your IT department more accessible. By signing into your account you are able to place a request from a variety of devices through your IT department and know what is available.
 
-Live Link-
+<a href="https://jovial-mcclintock-f98a35.netlify.app/"> Live Link</a>
 
 ### Built With
 
